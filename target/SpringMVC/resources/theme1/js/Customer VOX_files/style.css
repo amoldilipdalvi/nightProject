@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(fonts/MyriadPro-Regular.woff);
+}
+
+
+body{
+	font-family:"Segoe UI","Segoe","Tahoma","Helvetica","Arial","sans-serif" !important
+}
+
+.main,.graphs-container{
+	margin-top:15px;
+	height:100%;
+	width:100%;
+	padding:10px;
+	border:1px solid lightgrey;
+	border-radius:5px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 2px rgba(0,0,0,0.6);
+}
+
+.form-content{
+	margin-top:20px;
+}
+
+.form-content .field{
+	margin-bottom:5px;
+}
+
+.uppercase{
+	text-transform:uppercase;
+}
+
+.issues_header .btn{
+	margin-top:20px;
+}
+
+.issues_header{
+	margin-bottom:10px;
+}
+
+#issue_table td,#issue_table th{
+	text-align:center;
+}
+
+.dataTables_scrollHead th{
+	background-color:lightgrey;
+	text-align:center;
+}
+
+.dataTables_scrollHead th.action:after{
+	display:none !important;
+}
+
+.edit-btn , .delete-btn{
+	margin-bottom:5px;
+	padding:2px 5px;
+}
+
+.input-group-addon{
+	cursor:pointer;
+}
+
+.graphs-main{
+	margin-top:15px;
+}
+
+.date-range-container{
+	height:100%;
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+	background-color:#eee;
+	border:1px solid lightgrey;
+}
+
+.margin-left-10{
+	margin-left:10px;
+}
+
+#bar-graph,#pie-graph{
+	min-width:310px;
+	height:400px;
+	margin:0 auto;
+}
+
+.graphs-content{
+	margin-bottom:20px;
+}
+
+.highcharts-credits{
+	display:none;
+}
+.panel_heading{
+    background-color: #33b5e6 !important;
+    color: #ffffff !important;
+    font-size: 18px;
+    padding: 8px 15px
+}
+
+.panel_body{
+    padding:0px;
+}
+
+.margin-top{
+    margin-top:15px;
+}
+#issues_assing thead th, #pending_issues thead th, #open_cases thead th, #closed_cases thead th{
+    background-color: #7a7a79;
+    color: #ffffff;
+}
+
+#issues_assing_wrapper .dataTable, #pending_issues_wrapper .dataTable, #open_cases_wrapper .dataTable, #closed_cases_wrapper .dataTable{
+    margin-top: 0px !important;
+}
+
+#issues_assing_wrapper .row:first-child, #pending_issues_wrapper .row:first-child, #open_cases_wrapper .row:first-child, #closed_cases_wrapper .row:first-child{
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
